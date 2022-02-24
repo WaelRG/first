@@ -1,1 +1,791 @@
 
+/*strt result*/
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    list-style: none;
+       
+
+}
+body{
+    font-family: 'Cairo', sans-serif;
+    background-color: #f4f7fe;
+    
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+a{
+    text-decoration: none;
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+/*small*/
+@media (min-width:768px) {
+    .container{
+        width: 760px;
+    }
+}
+/*medium*/
+@media(min-width:992px)
+{
+    .container{
+        width: 970px;
+    }
+}
+/*larg*/
+@media(min-width:1200px)
+{
+    .container{
+        width: 1170px;
+    }
+}
+.tit{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: black;
+    padding: 30px;
+    width: 211px;
+    border-radius: 20px;
+    margin-left: 340px;
+    font-size: 25px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+
+  }
+  @media(max-width:992px)
+  {
+      .tit{ margin-left: 60px;
+
+      }
+  }
+  @media(max-width:768px)
+  {
+      .tit{ 
+          margin: 0;
+          
+      }
+  }
+/*start hed*/
+.header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+    position: fixed;
+    z-index: 444;
+    width: 100%;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.header .logo{
+    width: 110px;
+    position: relative;
+    display: flex;
+
+}
+.header .logo img{
+    width: 87px;
+    height: 42px;
+    justify-content: flex-start;
+    position: absolute;
+    top: 8px;
+}
+
+.header ul{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    position: relative;
+    
+   
+    
+
+}
+.header ul li{
+    margin: 20px;
+    
+}
+.header ul li a{
+    color: white;
+    transition: 0.5s;
+
+}
+@media(max-width:768px)
+{
+    .header ul li a{
+        font-size: 23px;
+        position: relative;
+        left: -230px;
+    }
+}
+.header ul li a:hover{
+    color:#4cf561;
+   
+}
+/*start media*/
+@media(min-width:1200px)
+{
+    .header .container{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+@media(min-width:769px)
+{
+    .header .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media(min-width:768px)
+{
+    .header .logo{
+        flex-basis: 16.66667%;
+        max-width: 16.66667%;
+        padding-left: 10px;
+       
+    }
+}
+@media(max-width:768px)
+{
+    .header .logo{
+      
+        top: -15px;
+        left: 15px;
+    }
+    .header .logo img{
+        width: 60px;
+        height: 32px;
+        top: 28px;
+        left: 149px;
+    }
+}
+/*end media*/
+/*end head*/
+/*start head2*/
+.head2{
+    padding-top: 15px;
+    padding-bottom: 88px;
+    position: relative;
+    padding-left: 20px;
+    z-index: 333;
+    top: 100px;
+    left:31px;
+    
+
+}
+.head2 .container{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0 0 20px;
+    white-space: nowrap;
+
+
+}
+
+.head2 h1{
+
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 700px;
+    position: relative;
+    
+    
+}
+@media(max-width:768px)
+{
+    .head2 {
+        position: relative;
+        left: 45%;
+    }
+}
+@media(max-width:1200px)
+{
+    .head2 h1{
+        padding: 0;
+        left: 13px;
+    }
+}
+/*end ahead2*/
+/*start head3*/
+.head3{
+    padding-left: 217px;
+    padding-right: 217px;
+    position: relative;
+    padding-top: -28px;
+    top: -30px;
+    z-index: 441;
+    left:60px;
+    
+
+
+}
+.head3 .container{
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+
+
+}
+
+.head3 ul{
+    display: flex;
+
+}
+.head3 ul li{
+    margin: 80px;
+
+}
+.head3 ul li a{
+    position: relative;
+    overflow: hidden;
+    padding: 6px 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 4px;
+    background: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    color: #11111c;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    transition: .3s;
+    width: calc(33.33% - 10px);
+    margin-top: 5px;
+    box-shadow: 0 8px 32px rgb(0 0 0 / 10%);
+    border-radius: 13px;
+
+}
+@media(max-width:1200px)
+{
+    .head3 ul li{
+        margin: 70px;
+        position: relative;
+        left: -8%;
+        
+    }
+    .head3 ul li a{
+        font-size: 17px;
+        margin: -21px;
+    };
+
+    }
+}
+@media(max-width:992px)
+{
+    .head3 ul li{
+        margin: 40px;
+    }
+    .head3 ul li a{
+        font-size: 14px;
+        margin: -30px;
+
+    }
+}
+@media(max-width:768px)
+{
+    .head3 ul li{
+        margin: 0;
+        position: relative;
+        left: -121px;
+        padding: 0;
+        top: 34px;
+        
+    }
+    .head3 ul li a{
+        padding: 12px;
+        font-size: 13px;
+        margin: 8px;
+        left: 223%;
+        padding: 10px 13px ;
+        font-size: 21px;
+
+
+    }
+}
+
+/*end head3*/
+/*start box1*/
+.box1{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
+    
+}
+.box1 .container{
+    display: grid;
+    grid-template-columns:repeat(auto-fill , minmax(300px , 1fr));
+    gap: 30px;
+
+}
+.box1 .box{
+   
+    position: relative;
+    background: white;
+    text-align: center;
+    border-radius: 20px;
+   
+    transition: 0.5s;
+    position: relative;
+    height: fit-content;
+
+}
+.box1 .box:hover{
+    transform: translateY(-15px);
+    
+}
+.box1 .box img{
+    max-width: 100%;
+    display: flex;
+   
+    padding: 10px 15px;
+    transition: 0.5s;
+   
+
+}
+
+
+.box1 .box .img2 img{
+    height: 350px;
+    transition: 0.5s;
+}
+.box1 .box .img{
+    background:white;
+    border: none;
+    width: 290px;
+   position: relative;
+   left: -5%;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    transition: 0.5s;
+    border-radius: 10px;
+    
+
+}
+
+ .box .click:hover .img{
+    display: block;
+    margin: 20px auto;
+    
+    
+   
+}
+.box1 .box .img img{
+    max-width: 129%;
+    transition: 0.5s;
+    border-radius: 20px;
+    position: relative;
+    transform: translatex(-5%);
+  
+   
+}
+.box1 .box .title{
+    padding: 20px 15px;
+    
+    margin: 20px auto;
+    border-radius: 20px;
+    width: fit-content;
+    position: relative;
+    top: 21px;
+
+}
+.box1 .box .title h2{
+    background:white;
+    width: fit-content;
+    margin: 20px auto;
+    font-size: 29px;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+.box1 .box .title p{
+    font-size: 21px;
+    color: #777;
+    background: white;
+    font-weight: bold;
+    border-radius: 20px;
+
+}
+.box1 .box .title a{
+font-size: 40px;
+color:black;
+}
+.box1 .box .img img:hover{
+    transform: translateX(-10px);
+    
+    
+}
+/*start effect*/
+.after{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    position: relative;
+    
+}
+.after .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(300px , 1fr));
+    gap: 30px;
+}
+.after .box{
+    background-color: white;
+    position: relative;
+    text-align: center;
+    transition: 0.5s;
+
+
+}
+.after .box:hover{
+    transform: translateY(-15px);
+}
+.after .box video{
+    max-width: 100%;
+    border-radius: 15px;
+    height: 300px;
+    position: relative;
+}
+
+.after .box .title{
+    padding: 20px 15px;
+    
+    margin: 20px auto;
+    border-radius: 20px;
+    width: fit-content;
+    position: relative;
+    top: 21px;
+
+}
+.after .box .title a{
+
+    font-size: 40px;
+color:black;
+}
+
+.after .box .title p{
+    font-size: 21px;
+    color: #777;
+    background: white;
+    font-weight: bold;
+    border-radius: 20px;
+
+
+}
+.after .box .vedio{
+    position: relative;
+    
+}
+
+
+/*end effect*/
+/*end box1*/
+/*start sounnd*/
+.sound{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    position: relative;
+    background-color: white;
+}
+.sound .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(500px , 1fr));
+    gap: 20px;
+}
+.sound .box{
+    background-color: white;
+    position: relative;
+  
+
+}
+.sound .box video{
+   
+    border-radius: 20px;
+
+
+}
+.sound .box .video1 video{
+    width: 562px;
+
+}
+.sound .box .video2 video{
+    width: 559px;
+    height: 560px;
+
+}
+.sound .box audio {
+ width: 100%;
+ margin: 20px auto;
+ background-color: #777;
+}
+
+  
+ 
+  
+ 
+  @media(max-width:768px)
+  {
+    .sound .box audio,
+    .sound .box .video1 video,
+    .sound .box .video2 video{
+        width: 330px;
+    }
+  }
+  
+/*end sound*/
+/*start services*/
+.services{ 
+     padding-top: 200px;
+    padding-bottom: 200px;
+    position: relative;
+    background-color: white;
+
+}  
+.services .container{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 130px;
+
+
+}
+.services .title{   
+  text-align: center;
+ padding: 10px 16px;
+
+} 
+.services .title h2{ 
+    font: 600 26px/34px "Open Sans";
+    font-size: 32px;
+    line-height: 40px; 
+    margin: 40px;
+
+}
+
+.services .title p{ 
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.services .icon{
+    list-style: none;
+    text-align: center;
+    margin: 24px 0 0;
+    padding: 0; 
+    display: flex; 
+    
+}
+.services .icon a{
+     display: flex; 
+     justify-content: center;
+     align-items: center;
+     color: black;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid #11111c;
+    text-align: center;
+    -webkit-box-pack: center; 
+    margin: 25px;
+
+}
+
+/*end services*/
+/*start description*/
+.description{
+    padding-top: 200px;
+    padding-bottom: 800px;
+    position: relative;
+    background-color: white;
+}
+.description .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 130px;
+
+    
+}
+.description .title{
+    text-align: center;
+ padding: 10px 16px;
+}
+.description .title h1{
+    font: 600 26px/34px "Open Sans";
+    font-size: 32px;
+    line-height: 40px; 
+    margin: 40px;
+}
+.description .title p{
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+/*end description*/
+/*start about*/
+.about{ 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #11111c; 
+    height: 200px
+
+}
+.about .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    white-space: nowrap;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+.about .logo{ 
+     width: 110px;
+    position: relative;
+    display: flex; 
+    
+
+}
+.about .logo img{ 
+    width: 87px;
+    height: 42px;
+    justify-content: flex-start;
+    position: absolute;
+    top: 37px;
+    left: 50px;
+
+} 
+@media(min-width:768px)
+{
+    .about .logo{
+        flex-basis: 16.66667%;
+        max-width: 16.66667%;
+        padding-left: 10px;
+       
+    }
+}
+
+.about .text{ 
+    position: relative;
+    display: flex;
+    left: 30%;
+
+
+}
+.about .text .author{ 
+    color: white;
+    position: relative;
+    top: 140px;
+
+}
+.about .text .author p{ 
+    color: #ffffff7d;
+    font-size: 23px;
+    position: relative;
+    left: 60%;
+}
+.about .text .copy p{ 
+    color: white;
+    margin-left: 200px;
+    position: relative;
+    left: -63%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+
+} 
+.about .text .copy span{
+    color:whitesmoke;
+}
+@media(max-width:992px)
+{
+    .about .text .author p{
+        left: 80%;
+
+    }
+    .about .text .copy p{
+        left: -49%;
+
+    }
+}
+@media(max-width:768px)
+{
+    .about .text .author p{
+        left: 45%;
+        font-size: 13px;
+
+    }
+    .about .text .copy p{
+        left: -76%;
+        font-size: 14px;
+        
+    }
+}
+@media(max-width:768px){
+    .about .logo img{
+        left:10px ;
+    }
+    .about .text{
+        left: 1%;
+    }
+}
+@media(max-width:992px)
+{
+    .about .text{
+        left: 11%;
+    }
+}
+@media(max-width:768px)
+{
+    .box1,
+    .after,
+    .sound,
+    .services,
+    .description,
+    .about{
+        position: relative;
+        left: 55%;
+    }
+}
+/*end about*/
