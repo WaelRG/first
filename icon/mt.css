@@ -189,52 +189,7 @@ a{
 }
 /*end media*/
 /*end head*/
-/*start head2*/
-.head2{
-    padding-top: 15px;
-    padding-bottom: 88px;
-    position: relative;
-    padding-left: 20px;
-    z-index: 333;
-    top: 100px;
-    left:31px;
-    
 
-}
-.head2 .container{
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 0 0 20px;
-    white-space: nowrap;
-
-
-}
-
-.head2 h1{
-
-    font-family: 'Cairo', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 700px;
-    position: relative;
-    
-    
-}
-@media(max-width:768px)
-{
-    .head2 {
-        position: relative;
-        left: 12%;
-    }
-}
-@media(max-width:1200px)
-{
-    .head2 h1{
-        padding: 0;
-        left: 13px;
-    }
-}
-/*end ahead2*/
 /*start head3*/
 .head3{
     padding-left: 217px;
